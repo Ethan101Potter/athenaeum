@@ -329,7 +329,3 @@ git checkout "$(git describe --tags --abbrev=0)"
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full promotion flow.
 
 
-
-## License
-
-Apache 2.0 — see [LICENSE](https://github.com/Kromatic-Innovation/athenaeum/blob/develop/LICENSE).
