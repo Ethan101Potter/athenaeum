@@ -1,13 +1,5 @@
 # Athenaeum
 
-<p align="center">
-  <img src="docs/assets/athena.png" alt="Athena with her owl companion, holding an open book showing a knowledge graph" width="480">
-</p>
-
-[![PyPI version](https://img.shields.io/pypi/v/athenaeum.svg)](https://pypi.org/project/athenaeum/)
-[![Python versions](https://img.shields.io/pypi/pyversions/athenaeum.svg)](https://pypi.org/project/athenaeum/)
-[![License](https://img.shields.io/pypi/l/athenaeum.svg)](https://github.com/Kromatic-Innovation/athenaeum/blob/develop/LICENSE)
-
 **Production-grade agentic memory for teams deploying multiple AI agents.**
 Athenaeum follows trunk-style development with `develop` as the active branch
 and `main` as the released-revision pointer.
@@ -18,8 +10,7 @@ turn.
 > **Is this for me?** If you're running more than one agent on shared
 > knowledge — or if you want agents and humans reading and writing the same
 > institutional memory — yes. If you're building a single-user chatbot,
-> [mem0](https://github.com/mem0ai/mem0) or
-> [Letta](https://github.com/letta-ai/letta) may be a better fit.
+
 
 ## Why Athenaeum
 
@@ -37,8 +28,7 @@ memory tool, RAG, Karpathy's gist, mem0/Letta/Zep/Cognee), and the lessons
 from running it on our own operations live in
 [**docs/why-athenaeum.md**](docs/why-athenaeum.md). For the companion blog
 post: [What We Learned Running Our Own Operations on Agentic
-Memory](https://kromatic.com/blog/agentic-memory-in-production/).
-
+Memory]
 ## Installation
 
 ```bash
@@ -183,8 +173,7 @@ This gives you:
 - **Auto-remember** — Claude proactively saves important facts without being asked.
 - **Context checkpointing** — observations are saved before context-window compaction.
 
-Full setup guide, smoke test, and environment-variable reference:
-[`examples/claude-code/README.md`](https://github.com/Kromatic-Innovation/athenaeum/blob/develop/examples/claude-code/README.md).
+
 
 ## Integrations
 
@@ -310,7 +299,7 @@ release line:
 ## Development
 
 ```bash
-git clone https://github.com/Kromatic-Innovation/athenaeum.git
+git clone https://github.com/Ethan101Potter/athenaeum.git
 cd athenaeum
 pip install -e ".[dev]"
 
@@ -332,19 +321,14 @@ source against the latest released revision instead of the active branch,
 clone and check out the latest tag:
 
 ```bash
-git clone https://github.com/Kromatic-Innovation/athenaeum.git
+git clone https://github.com/Ethan101Potter/athenaeum.git
 cd athenaeum
 git checkout "$(git describe --tags --abbrev=0)"
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full promotion flow.
 
-## Getting help
 
-Rolling this out on a team? Open an
-[issue](https://github.com/Kromatic-Innovation/athenaeum/issues) or reach out
-via [kromatic.com](https://kromatic.com/). We talk to teams working through
-agent-memory rollouts often and are happy to point at whatever's useful.
 
 ## License
 
